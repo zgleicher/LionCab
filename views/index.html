@@ -8,23 +8,33 @@
       <div class="container">
         <div class="row">
           <div class="container col-md-2 col-md-offset-5">
-            <h1>Lion Cab</h1>
+            <h1>Lion Cab!</h1>
+            <img src="LIONCAB.jpg" alt="Lion Cab for Columbia Students!" style="width:165px;height:165px">
           </div>
         </div>
         <div class="row">
           <div class="container col-md-2 col-md-offset-5">
             <form method="post">
               <div class="form-group">
+              <label>
+              Name
                 <!-- <label>Name</label> -->
-                <input type="text" class="form-control" name="name" id="name" placeholder="Enter Name" required>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+                </label>
               </div>
               <div class="form-group">
+              <label>
                 <!-- <label>UNI</label> -->
-                <input type="text" class="form-control" name="uni" id="uni" placeholder="Enter UNI" required>
+                UNI
+                <input type="text" class="form-control" name="uni" id="uni" placeholder="UNI" required>
+                </label>
               </div>
               <div class="form-group">
+              <label>
                 <!-- <label>Phone Number</label> -->
+                Phone number
                 <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter Phone" required>
+                </label>
               </div>
               <div class="radio">
                 <label>
@@ -44,12 +54,25 @@
                   Newark
                 </label>
               </div>
+              <div class="form-group">
+                <label>
+                  Pick up date.
+                  <input type="date" />
+                </label>
+              </div>
+              <div class="form-group">
+              <label>
+                <!-- <label>UNI</label> -->
+                Pick up time.
+                <input type="text" class="form-control" name="time" id="time" placeholder="Enter your time." required>
+                </label>
+              </div>
               <button type="submit" class="btn btn-default">Submit</button>
             </form>
           </div>
         </div>
         <div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
