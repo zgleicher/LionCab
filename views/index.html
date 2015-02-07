@@ -8,8 +8,8 @@
       <div class="container">
         <div class="row">
           <div class="container col-md-2 col-md-offset-5">
-            <h1>Lion Cab!</h1>
-            <img src="LIONCAB.jpg" alt="Lion Cab for Columbia Students!" style="width:165px;height:165px">
+            <h1 style="font-size:39;font-family:verdana">Lion Cab!</h1>
+            <img src="LIONCAB.png" alt="Lion Cab for Columbia Students!" style="width:165px;height:165px">
           </div>
         </div>
         <div class="row">
@@ -36,7 +36,15 @@
                 <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter Phone" required>
                 </label>
               </div>
-              <div class="radio">
+              <div id="airport">
+                <input type="radio" name="airport" id="jfk" />
+                  <label for="jfk"><img src="jfkpic.jpg" alt="JFK airport" style="width:165px;height:165px" /></label>
+                <input type="radio" name="airport" id="lga" />
+                  <label for="lga"><img src="LGA.jpg" alt="LGA airport" style="width:165px;height:165px"/></label>
+                <input type="radio" name="airport" id="ewr" />
+                  <label for="ewr"><img src="EWR.jpg" alt="EWR airport" style="width:165px;height:165px"/></label>
+              </div>
+              <!-- <div class="radio">
                 <label>
                   <input type="radio" id="JFK" value="JFK">
                   JFK
@@ -53,7 +61,7 @@
                   <input type="radio" id="EWR" value="EWR">
                   Newark
                 </label>
-              </div>
+              </div> -->
               <div class="form-group">
                 <label>
                   Pick up date.
